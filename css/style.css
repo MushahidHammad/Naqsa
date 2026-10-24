@@ -94,3 +94,15 @@ section{padding:80px 0}.split,.cols,.vals{grid-template-columns:1fr;gap:40px}
 .fnav a{font-size:.88rem}
 .btn,input,select,textarea,label,p,small,li{font-family:var(--sans)}
 .fnav a,.links a{font-family:var(--serif)}
+
+/* Final type rules: capitals (h1, h2, menu) = Playwrite US Modern; sentence-case subheads (h3, .sub) = Montserrat */
+h1,h2{text-transform:uppercase;letter-spacing:.03em}
+h1{font-size:clamp(1.7rem,4vw,3.3rem)}
+h2{font-size:clamp(1.35rem,2.5vw,2rem)}
+.hero h1{max-width:16ch}
+.page-hero h1{font-size:clamp(1.7rem,3.8vw,3rem)}
+h3,h2.sub{font-family:var(--sans);font-weight:400;font-size:1.2rem;line-height:1.5;text-transform:none;letter-spacing:0}
+h2.sub{margin-bottom:0}
+.links a,.fnav a,.mb{text-transform:uppercase;letter-spacing:.05em;font-size:.76rem}
+.fnav a{font-size:.8rem}
+@media(max-width:860px){.links a{font-size:.85rem}}
