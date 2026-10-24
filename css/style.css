@@ -49,7 +49,7 @@ header nav{display:flex;justify-content:space-between;align-items:center}
 /* layouts */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
 .split .ph{aspect-ratio:4/5}
-.statement{font-family:var(--serif);font-weight:300;font-size:clamp(1.35rem,2.5vw,2rem);line-height:1.7;max-width:900px}
+.statement{font-family:var(--sans);font-weight:300;font-size:clamp(1.4rem,2.6vw,2.1rem);line-height:1.6;max-width:900px}
 .rows>div{display:grid;grid-template-columns:1fr 1.6fr;gap:40px;padding:40px 0;border-top:1px solid var(--line)}
 .rows>div:last-child{border-bottom:1px solid var(--line)}
 .dark .rows>div{border-color:rgba(235,228,218,.18)}
@@ -88,3 +88,9 @@ section{padding:80px 0}.split,.cols,.vals{grid-template-columns:1fr;gap:40px}
 .dark .vals p{color:#c4bcb0}
 .page-hero .lead{color:#c4bcb0}
 @media(max-width:860px){.hero .mark{height:38vh;top:33%;right:-10vw}.hero{padding-bottom:7vh}}
+
+/* Capitalised titles and menu words: Playwrite US Modern. Sentences, paragraphs, buttons and form text: Montserrat */
+.links a,.fnav a,.mb{font-family:var(--serif);font-weight:300;letter-spacing:0;font-size:.82rem}
+.fnav a{font-size:.88rem}
+.btn,input,select,textarea,label,p,small,li{font-family:var(--sans)}
+.fnav a,.links a{font-family:var(--serif)}
